@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+.dark {
+  background-color: rgb(81, 80, 80);
+  color: #fff;
+}
+
+.dark nav {
+  background-color: rgb(18, 18, 18);
+}
+
+.dark .navLogo a {
+  color: #fff;
+}
+
+.dark nav div a {
+  color: #fff;
+}
+
+.dark th,
+.dark td {
+  border: 2px solid #4e2e6c;
+}
+
+.dark nav div a:hover {
+  color: rgba(228, 227, 227, 0.55);
+}
+
+.dark .navBtn {
+  background-color: rgb(18, 18, 18);
+  border-color: #fff;
+}
+
+.dark .navBtn:hover {
+  background-color: rgba(47, 47, 47, 0.849);
+}
+
+.dark a {
+  color: #fff;
+}
+
+.dark .card a {
+  color: #fff;
+}
+
+.dark .card {
+  background-color: rgb(70, 69, 69);
+}
+
+.dark .btnCard {
+  border-color: rgb(53, 53, 53);
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.dark .card a:hover {
+  color: rgb(177, 177, 177);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgba(231, 231, 231, 0.954);
+  height: 5rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.navLogo a {
+  font-size: 32px;
+  color: rgba(29, 29, 29, 0.9);
+}
+
+nav div {
+  padding-right: 1rem;
+}
+
+nav div a {
+  color: rgba(94, 94, 94, 0.55);
+  font-size: 24px;
+  font-weight: 500;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  margin: 0.3rem;
+}
+
+nav div a:hover {
+  color: rgb(54, 54, 54);
+}
+
+nav span::first-letter {
+  color: #f21d1d;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+}
+
+button {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  height: 3rem;
+  padding: 1rem;
+  margin: 0.3rem;
+}
+
+.navBtn {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 15%;
+}
+.navBtn:hover {
+  cursor: pointer;
+  background-color: rgba(116, 116, 116, 0.849);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+  text-align: center;
+  height: 390px;
+  margin: 2%;
+  width: 280px;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardImg {
+  height: 260px;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/doctor.jpg");
+}
+
+.card a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.card a:hover {
+  color: rgb(169, 169, 169);
+}
+
+.cardText {
+  padding-top: 1rem;
+}
+
+.btnCard {
+  width: 150px;
+  height: 0.5rem;
+  border-radius: 2%;
+  border-color: rgb(221, 221, 221);
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.btnCard:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #c7a5d9;
+  height: 6rem;
+}
+
+.dark footer {
+  background-color: #4e2e6c;
+}

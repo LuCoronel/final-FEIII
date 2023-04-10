@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.form button {
+  border-radius: 3px;
+  border: 0.5px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.5em 0;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #d1cece;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 227px;
+  height: 40px;
+  border-color: rgb(18, 18, 18);
+}
+
+.form input {
+  width: 218px;
+  height: 40px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+  border-radius: 3px;
+  font-size: 11px;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.form input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+.errorMessage {
+  margin-top: 1em;
+  color: rgb(255, 39, 39);
+  font-size: 18px;
+}
